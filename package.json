@@ -4,17 +4,23 @@
   "description": "JS Asynchronism",
   "main": "index.js",
   "scripts": {
+    "callback":"node src/callback/challenge.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/monroyluis/asyncjs.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Luis Monroy",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/monroyluis/asyncjs/issues"
   },
-  "homepage": "https://github.com/monroyluis/asyncjs#readme"
+  "homepage": "https://github.com/monroyluis/asyncjs#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
